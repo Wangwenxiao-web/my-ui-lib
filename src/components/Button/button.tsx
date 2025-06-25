@@ -3,7 +3,7 @@ import type { PropType } from "vue";
 
 export type ButtonType = "primary" | "default" | "danger";
 
-export const Button = defineComponent({
+export default defineComponent({
   name: "MyButton",
   props: {
     type: {
