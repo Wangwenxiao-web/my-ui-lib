@@ -5,7 +5,9 @@ import { MyButton } from './components';
 <template>
   <div>
     <h1>Hello My UI Lib</h1>
-    <MyButton>默认按钮</MyButton>
+    <MyButton type="default">默认按钮</MyButton>
+    <MyButton type="primary">主按钮</MyButton>
+    <MyButton type="danger">危险按钮</MyButton>
   </div>
 </template>
 

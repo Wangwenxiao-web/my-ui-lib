@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import "./style.css";
+import "./styles/variables.scss";
 import App from "./App.vue";
 import MyUI from "./index";
 // import { MyButton } from './components'; // 按需加载
